@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hotels_ui/pages/hotel_assignment.dart';
 import 'package:hotels_ui/pages/hotels_ui.dart';
+import 'package:hotels_ui/pages/sample_from_mentor.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -13,6 +14,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   Map<String, String> pages = {
+    Sample.id: 'Hotels Sample From Mentor',
     HotelsUI.id: 'Hotels',
     AssignmentHotel.id: 'Hotels Simple UI',
   };
